@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: system-ui;
+    background: linear-gradient(to right, #9d5be3, #3fa4d7);
+}
+
+.stopwatch {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.controls button, .laps button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    background: #561997;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.controls button:hover, .laps button:hover {
+    background: #b24db0;
+}
+
+.laps ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
